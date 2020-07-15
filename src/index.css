@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbarTitle {
+  color: aliceblue;
+}
+.about {
+  background-color: pink;
+}
+.principal {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.TitlePrin {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  color: #2196f3;
+  font-size: 54px;
+  text-align: center;
+}
+.lettler {
+  text-align: center;
+  font-size: larger;
+}
+.languages {
+  height: 51px;
+  margin: 37px -50px -184px 115px;
+}
+.languagesTodo {
+  margin: 66px 5px -35px 46px;
+}
