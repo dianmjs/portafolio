@@ -6,17 +6,21 @@ import react from "../Image/react.png";
 import git from "../Image/git.png";
 import bootstrap from "../Image/bootstrap.png";
 import mongo from "../Image/mongo.png";
+import "animate.css";
 
 const Principal = () => {
   return (
     <div class="container  principal">
-      <h1 className="TitlePrin">Hello world I'm diana!</h1>
+      <h1 class="animate__animated  animate__bounce" className="TitlePrin">
+        Hello world. I'm Diana!
+      </h1>
+      <hr className="line" />
       <p class="lead" className="lettler">
         <br /> Welcome to my page, here you can
         <br /> learn a little about me and my career in the world of web
         development.
       </p>
-      <div className="languagesTodo row ">
+      <div className="languagesTodo  row ">
         <img className="languages " src={image} alt="" />
         <img className="languages" src={imageJava} alt="" />
         <img className="languages" src={css} alt="" />

@@ -29,6 +29,8 @@ code {
   color: #2196f3;
   font-size: 54px;
   text-align: center;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
 .lettler {
   text-align: center;
@@ -40,4 +42,9 @@ code {
 }
 .languagesTodo {
   margin: 66px 5px -35px 46px;
+}
+.line {
+  size: 10;
+  width: 75%;
+  border-top: 2px solid #00bcd4;
 }
