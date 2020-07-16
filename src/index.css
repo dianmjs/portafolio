@@ -46,5 +46,83 @@ code {
 .line {
   size: 10;
   width: 75%;
-  border-top: 2px solid #00bcd4;
+  border-top: 2px solid #adb5bd;
+}
+.titleLine {
+  margin: 36px 23px -31px -1px;
+}
+.footer__info .footer__info-container {
+  text-align: center;
+}
+.footer__info {
+  padding: 1.5em 0;
+  width: 100%;
+}
+.container {
+  padding-top: 1.0875rem;
+  padding-bottom: 1.0875rem;
+  margin: 0 auto;
+}
+.pic {
+  width: 364px;
+  margin: 29px 2px 4px 52px;
+  border: 3px solid #ce93d8;
+}
+.about {
+  margin: 29px 1px 3px -1px;
+  text-align: center;
+  background-color: white;
+}
+.projects {
+  text-align: center;
+  margin: 27px 2px 3px 4px;
+}
+.button {
+  margin: 1px 2px 3px 155px;
+  background-color: #ce93d8;
+  color: var(--primary);
+  border: 1px;
+}
+.body {
+  border: 2px solid #ce93d8;
+}
+.lineTitle {
+  border-top: 2px solid #e91e63;
+  width: 120px;
+}
+.imageProject {
+  width: 77px;
+  height: 72px;
+  margin: 7px 2px -26px -2px;
+}
+.parr {
+  margin: -52px 2px 6px 83px;
+}
+.contactIcon {
+  height: 69px;
+  margin: 228px 126px;
+}
+.titleContact {
+  margin: -211px 3px 11px 131px;
+}
+.contactIconG {
+  height: 69px;
+  margin: 228px 174px;
+}
+.linke {
+  height: 69px;
+  margin: 228px 142px;
+}
+.contactGit {
+  height: 69px;
+  margin: 228px 126px;
+}
+a:hover {
+  color: #aa00ff;
+}
+.contact {
+  margin: -29px 0px 6px -20px;
+}
+.aboutme {
+  font-size: 20px;
 }

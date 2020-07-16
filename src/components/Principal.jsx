@@ -10,24 +10,45 @@ import "animate.css";
 
 const Principal = () => {
   return (
-    <div class="container  principal">
-      <h1 class="animate__animated  animate__bounce" className="TitlePrin">
-        Hello world. I'm Diana!
-      </h1>
-      <hr className="line" />
-      <p class="lead" className="lettler">
-        <br /> Welcome to my page, here you can
-        <br /> learn a little about me and my career in the world of web
-        development.
-      </p>
+    <div className="container  principal">
+      <div className="titleLine">
+        <h1 class="animate__animated  animate__bounce" className="TitlePrin">
+          Hello world. I'm Diana!
+        </h1>
+        <hr className="line" />
+        <p class="lead" className="lettler">
+          <br /> Welcome to my page, here you can
+          <br /> learn a little about me and my career in the world of web
+          development.
+        </p>
+      </div>
       <div className="languagesTodo  row ">
-        <img className="languages " src={image} alt="" />
-        <img className="languages" src={imageJava} alt="" />
-        <img className="languages" src={css} alt="" />
-        <img className="languages" src={react} alt="" />
-        <img className="languages" src={git} alt="" />
-        <img className="languages" src={bootstrap} alt="" />
-        <img className="languages" src={mongo} alt="" />
+        <figure>
+          <img className="languages " src={image} alt="" />
+        </figure>
+        <figure>
+          {" "}
+          <img className="languages" src={imageJava} alt="" />
+        </figure>
+        <figure>
+          {" "}
+          <img className="languages" src={css} alt="" />
+        </figure>
+        <figure>
+          {" "}
+          <img className="languages" src={react} alt="" />{" "}
+        </figure>
+        <figure>
+          {" "}
+          <img className="languages" src={git} alt="" />
+        </figure>
+        <figure>
+          <img className="languages" src={bootstrap} alt="" />{" "}
+        </figure>
+        <figure>
+          {" "}
+          <img className="languages" src={mongo} alt="" />{" "}
+        </figure>
       </div>
     </div>
   );
