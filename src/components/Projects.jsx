@@ -7,21 +7,22 @@ import crono from "../Image/crono.JPG";
 
 const Projects = () => {
   return (
-    <div className="container">
-      <div className="projects">
+    <div className="container ">
+      <div className="projects col-xs-12 col-sm-12 col-md-12 ">
         <h5 class="animate__animated  animate__bounce projects">Projects</h5>
-        <hr className="lineTitle" />
+        <hr className="lineproject " />
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class=" col-xs-12 col-sm-12 col-md-6">
           <div class="card">
             <div className="card-body body">
               <h5 class="card-title">Most Voted Posts</h5>
               <img src={post} class="card-img-top imageProject" alt="..." />
               <p class="card-text parr">
-                In this project you must organize the posts in ascending or
-                descending order and vote, for this project use{" "}
-                <b>Reactjs, Javascript and Material-Ui </b>for the style.
+                Organize posts in ascending or descending order and you can
+                vote, for this project use{" "}
+                <b>Reactjs, Javascript and Material-Ui</b>
+                for style.
               </p>
               <a
                 href="https://dianmjs.github.io/posts/"
@@ -33,14 +34,14 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class=" col-xs-12 col-sm-12 col-md-6">
           <div class="card">
             <div class="card-body body">
               <h5 class="card-title">ToDo App</h5>
               <img src={lista} class="card-img-top imageProject" alt="..." />
               <p class="card-text parr">
-                This project is responsible for adding tasks, editing and
-                deleting, the important thing in this practice was to use
+                You can add tasks, edit and delete, the important thing in this
+                practice was to use
                 <b> Firebase for storage, React js and Boostrap 4 </b>.
               </p>
               <a
@@ -54,7 +55,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col-sm-6 mt-2">
+        <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
           <div class="card">
             <div class="card-body body">
               <h5 class="card-title">Pokemon Api</h5>
@@ -76,14 +77,13 @@ const Projects = () => {
           </div>
         </div>
 
-        <div class="col-sm-6 mt-2">
+        <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
           <div class="card">
             <div class="card-body body">
               <h5 class="card-title">Chronometer</h5>
               <img src={crono} class="card-img-top imageProject" alt="..." />
               <p class="card-text parr">
-                In this project it is a simple chronometer, it was played with
-                css styles and effects, It worked with{" "}
+                Stopwatch, played with CSS styles and effects, worked with
                 <b> React js with Hooks, Material-Ui and Javascript </b>.
               </p>
               <a

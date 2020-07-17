@@ -18,6 +18,7 @@ function App() {
           <Route component={Projects} path="/projects" />
           <Route component={Contact} path="/contact" />
         </Switch>
+        <Footer />
       </Router>
     </Fragment>
   );

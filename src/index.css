@@ -38,10 +38,15 @@ code {
 }
 .languages {
   height: 51px;
-  margin: 37px -50px -184px 115px;
+  margin: 32px -50px -184px 99px;
 }
 .languagesTodo {
-  margin: 66px 5px -35px 46px;
+  margin: -2px 5px -35px 137px;
+}
+@media (max-width: 767px) {
+  .languagesTodo {
+    margin: 1px -154px;
+  }
 }
 .line {
   size: 10;
@@ -49,7 +54,7 @@ code {
   border-top: 2px solid #adb5bd;
 }
 .titleLine {
-  margin: 36px 23px -31px -1px;
+  margin: 63px 23px -31px -1px;
 }
 .footer__info .footer__info-container {
   text-align: center;
@@ -65,14 +70,24 @@ code {
 }
 .pic {
   width: 364px;
-  margin: 29px 2px 4px 52px;
-  border: 3px solid #ce93d8;
+  margin: 29px 2px 4px 11px;
+}
+@media (min-width: 992px) {
+  .pic {
+    width: 360px;
+    margin: 29px 2px 4px 54px;
+  }
 }
 .about {
-  margin: 29px 1px 3px -1px;
-  text-align: center;
+  margin: 29px 1px 3px -31px;
   background-color: white;
 }
+@media (max-width: 768px) {
+  .about {
+    margin: 29px 1px 3px -10px;
+  }
+}
+
 .projects {
   text-align: center;
   margin: 27px 2px 3px 4px;
@@ -88,7 +103,8 @@ code {
 }
 .lineTitle {
   border-top: 2px solid #e91e63;
-  width: 120px;
+  width: 68px;
+  margin: 21px -1px;
 }
 .imageProject {
   width: 77px;
@@ -125,4 +141,20 @@ a:hover {
 }
 .aboutme {
   font-size: 20px;
+}
+.footer {
+  text-align: center;
+  padding-top: 165px;
+}
+.gmail {
+  margin: 4px 0 0 -49px;
+}
+.linkedin {
+  margin: 3px 0 0 -22px;
+}
+.lineproject {
+  border-top: 2px solid #e91e63;
+  width: 92px;
+  margin: 11px 489px;
+  display: block;
 }

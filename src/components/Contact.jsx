@@ -19,7 +19,7 @@ const Contact = () => {
             <p className="titleContact">dianmjs</p>
           </a>
         </div>
-        <div>
+        <div className="gmail">
           <a href="mailto:dianamjs69@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail">
             <img
               className="contactIconG mr-2 animate__animated animate__swing"
@@ -30,7 +30,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div>
+        <div className="linkedin">
           <a href="https://www.linkedin.com/in/dianamarcelajs/" target="_blank">
             <img
               className="linke mr-2 animate__animated animate__swing"
