@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.87b651e4.chunk.css",
+    "main.js": "/portafolio/static/js/main.01e2f1c5.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.01e2f1c5.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.a5a115d8.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.a5a115d8.js.map",
+    "static/css/2.e2dd9b0a.chunk.css": "/portafolio/static/css/2.e2dd9b0a.chunk.css",
+    "static/js/2.5121f515.chunk.js": "/portafolio/static/js/2.5121f515.chunk.js",
+    "static/js/2.5121f515.chunk.js.map": "/portafolio/static/js/2.5121f515.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "precache-manifest.ae04fb148b2b5f20a8da31953ec6f378.js": "/portafolio/precache-manifest.ae04fb148b2b5f20a8da31953ec6f378.js",
+    "service-worker.js": "/portafolio/service-worker.js",
+    "static/css/2.e2dd9b0a.chunk.css.map": "/portafolio/static/css/2.e2dd9b0a.chunk.css.map",
+    "static/css/main.87b651e4.chunk.css.map": "/portafolio/static/css/main.87b651e4.chunk.css.map",
+    "static/js/2.5121f515.chunk.js.LICENSE.txt": "/portafolio/static/js/2.5121f515.chunk.js.LICENSE.txt",
+    "static/media/Captura21.JPG": "/portafolio/static/media/Captura21.20f01715.JPG",
+    "static/media/Html5.png": "/portafolio/static/media/Html5.2de016c1.png",
+    "static/media/Javascript.png": "/portafolio/static/media/Javascript.e0cc0801.png",
+    "static/media/crono.JPG": "/portafolio/static/media/crono.911db72c.JPG",
+    "static/media/css.png": "/portafolio/static/media/css.f90d5832.png",
+    "static/media/git.png": "/portafolio/static/media/git.0918d786.png",
+    "static/media/gmail.svg": "/portafolio/static/media/gmail.06d24dd1.svg",
+    "static/media/linkedin.svg": "/portafolio/static/media/linkedin.6c8e140e.svg",
+    "static/media/lista.JPG": "/portafolio/static/media/lista.59847648.JPG",
+    "static/media/poke.JPG": "/portafolio/static/media/poke.9ea15012.JPG",
+    "static/media/post.JPG": "/portafolio/static/media/post.ce7f4cde.JPG",
+    "static/media/react.png": "/portafolio/static/media/react.f297dfcd.png",
+    "static/media/twitter.svg": "/portafolio/static/media/twitter.7e145c9e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5a115d8.js",
+    "static/css/2.e2dd9b0a.chunk.css",
+    "static/js/2.5121f515.chunk.js",
+    "static/css/main.87b651e4.chunk.css",
+    "static/js/main.01e2f1c5.chunk.js"
+  ]
+}
